@@ -146,4 +146,4 @@ async def ticket(ctx):
 keep_alive()
 
 # Khởi chạy bot
-bot.run(TOKEN)
+bot.run(os.getenv("TOKEN"))
